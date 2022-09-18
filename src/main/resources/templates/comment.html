@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org"
+       xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+	<meta charset="utf-8">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="layui/css/layui.css"  media="all">
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		 
+</head>
+<!-- <head th:include="layout :: htmlhead" th:with="title='文章管理'"></head> -->
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-body" style="margin: 1%">
+
+        <form id="userSearch" class="layui-form layui-form-pane" method="post" action="" style="margin-top: 20px;">
+            <div class="layui-form-item">
+                <label class="layui-form-label">评论ID</label>
+                <div class="layui-input-inline">
+                    <input id="id" name="id" autocomplete="off" class="layui-input" type="text"/>
+                </div>
+                <label class="layui-form-label">评论内容</label>
+                <div class="layui-input-inline">
+                    <input id="comment" name="comment" autocomplete="off" class="layui-input" type="text" onkeyup="this.value=this.value.replace(/\D/g,'')"
+                           onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+                </div>
+                <div class="layui-button">
+      				<button class="layui-btn" lay-submit="art" id="query" name="query" lay-filter="dem5">跳转art</button>
+   				</div>
+            </div>
+
+        </form>
+
+        <!--<hr class="layui-bg-blue"/>-->
+        <hr class="layui-bg-black"/>
+
+        <table id="articleList" lay-filter="userTable"></table>
+    </div>
+
+
+    
+    
+
+</div>
+
+
+<script src="/layui/layui.all.js"></script>
+<script src="/js/cps/comment.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org"
+       xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+       
+<head>
+	<meta charset="utf-8">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="layui/css/layui.css"  media="all">
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.serializejson.min.js"></script>
+		<script type="text/javascript">
+		
+	</script>
+</head>
+<body class="layui-layout-body">
+<div th:replace="fragments/head :: header"></div>
+<div class="layui-layout layui-layout-admin">
+<blockquote class="layui-elem-quote" align="center">
+商城管理系统</blockquote> 
+<table border="1" width="900px" height="100px" align="center" id="Con">
+	<tr>
+		<td align="left" >
+		<img src="/Path/18.jpg">
+		</td>
+		<!-- <td align="middle" >
+		<img src="/src/main/resources/img/18.jpg" width="100%" height="50%"/>
+		</td>
+		<td align="right " >
+		<img src="/src/main/resources/img/18.jpg" width="100%" height="50%"/>
+		</td> -->
+	</tr>
+	<!-- <tr>
+		<td align="left" >
+		<img src="/src/main/resources/img/22.jpg" width="100%" height="100%"/>
+		</td>
+		<td align="middle" >
+		<img src="/src/main/resources/img/23.jpg" width="100%" height="100%"/>
+		</td>
+		<td align="right " >
+		<img src="/src/main/resources/img/28.jpg" width="100%" height="100%"/>
+		</td>
+	</tr> -->
+	</table>
+</div>
+<script src="/js/dateUtils.js"></script>
+<script src="/layui/layui.all.js"></script>
+<script src="/js/cps/permission.js"></script>
+ <div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

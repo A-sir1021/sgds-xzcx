@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="/jquery/jquery.js"></script>
+		<script type="text/javascript">
+		function validateForm(){
+			$.ajax({
+	            url: "/com/QuerySpace",
+	            type: "post",
+	            dataType: "json",
+	            success: function(data){
+	                /*这个方法里是ajax发送请求成功之后执行的代码*/
+	                showData(data);//我们仅做数据展示
+	            },
+	            error: function(msg){
+	                alert("ajax连接异常："+msg);
+	            }
+	        });
+	    }
+		function showData(data){
+			var str="";
+			for(var i=0;i<data.length;i++){
+				str = "<tr><td>" + data[i].space_id + "</td><td>" + data[i].space_name + "</td></tr>"+ data[i].description + "</td></tr>"+ data[i].website + "</td></tr>"+ data[i].address + "</td></tr>"+ data[i].user_id + "</td></tr>"+ data[i].situation + "</td></tr>";
+	            //追加到table中
+	            $("#tab").append(str);  
+			}
+		}
+	</script>
+</head>
+<body>
+
+<table name="tab">
+<tr>
+         <td style=" width:400px;">景点名</td>
+         <td style=" width:400px;">景区名°</td>
+         <td style=" width:400px;">描述</td>
+         <td style=" width:400px;">网站</td>
+         <td style=" width:400px;">地址</td>
+         <td style=" width:400px;">建造号</td>
+         <td style=" width:400px;">详细情况</td>
+    </tr> 
+     
+   
+	<tr>
+		<td>
+		<h2>欢迎登陆</h2>
+		</td>
+	</tr>
+	<tr>
+  		<td align="center" colspan="3">
+  			<form action="/per/QuerySpace" method="post">
+  				<input type="submit" name="submit" value="查询" style="width:80px;height:30px">
+  			</form>
+  		</td>
+  		<td align="center" colspan="3">
+  			<form action="/per/addmiddle" method="post">
+  				<input type="submit" name="submit" value="添加" style="width:80px;height:30px">
+  			</form>
+  		</td>
+  		<td align="center" colspan="3">
+  			<form action="/per/Deletemiddle" method="post">
+  				<input type="submit" name="submit" value="删除" style="width:80px;height:30px">
+  			</form>
+  		</td>
+  		<td align="center" colspan="3">
+  			<form action="/per/updatemiddle" method="post">
+  				<input type="submit" name="submit" value="更新" style="width:80px;height:30px">
+  			</form>
+  		</td>
+  	</tr>
+	</table>
+</body>
+</html> 

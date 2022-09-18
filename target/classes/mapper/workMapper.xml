@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.test.dao.workMapper">
+  <resultMap id="BaseResultMap" type="com.example.test.pojo.work">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="situation" jdbcType="VARCHAR" property="situation" />
+    <result column="date" jdbcType="TIMESTAMP" property="date" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="page" jdbcType="INTEGER" property="page" />
+    <result column="icon" jdbcType="INTEGER" property="icon" />
+  </resultMap>
+  <insert id="insert" parameterType="com.example.test.pojo.work">
+    insert into work (id, name, situation, 
+      date, author, page, 
+      icon)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{situation,jdbcType=VARCHAR}, 
+      #{date,jdbcType=TIMESTAMP}, #{author,jdbcType=VARCHAR}, #{page,jdbcType=INTEGER}, 
+      #{icon,jdbcType=INTEGER})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, situation, date, author, page, icon
+    from work
+  </select>
+  <delete id="deleteByPrimaryKey" >
+   delete from work
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+</mapper>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org"
+       xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+       
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" th:href="@{/css/bootstrap.css}"></link>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="layui/css/layui.css"  media="all">
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.serializejson.min.js"></script>
+		<script type="text/javascript">
+
+	   
+	</script>
+</head>
+<body class="layui-layout-body">
+
+<h1>用户列表</h1>
+<br/><br/>
+<div class="with:80%">
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>pid</th>
+            <th>zindex</th>
+            <th>istype</th>
+            <th>descpt</th>
+            <th>code</th>
+            <th>icon</th>
+            <th>page</th>
+            <th>insert_time</th>
+            <th>update_time</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr  th:each="per : ${per}">
+            <th scope="row" th:text="${per.id}">id</th>
+            <td th:text="${per.name}">name</td>
+            <td th:text="${per.pid}">pid</td>
+            <td th:text="${per.zindex}">zindex</td>
+            <td th:text="${per.istype}">istype</td>
+            <td th:text="${per.descpt}">descpt</td>
+            <td th:text="${per.code}">code</td>
+            <td th:text="${per.icon}">icon</td>
+            <td th:text="${per.page}">page</td>
+            <td th:text="${per.insert_time}">insert_time</td>
+            <td th:text="${per.update_time}">update_time</td>
+          
+        </tr>
+        </tbody>
+    </table>
+</div>
+        <!--<hr class="layui-bg-blue"/>-->
+        <hr class="layui-bg-black"/>
+  <script src="/js/dateUtils.js"></script>
+<script src="/layui/layui.all.js"></script>
+
+</body>
+</html>
