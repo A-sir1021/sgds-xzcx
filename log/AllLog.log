@@ -1,0 +1,983 @@
+http-nio-8677-exec-3 [WARN ]  2022-09-18 20:08:00.426  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@2e36294e  javax.servlet.http.Cookie@2974c895  
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:08:00.428  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918200800   20220918205645  -4845
+http-nio-8677-exec-3 [INFO ]  2022-09-18 20:08:00.443  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918200800   20220918205645  -4845
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:08:01.427  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@6f45898a  javax.servlet.http.Cookie@416fa15  
+http-nio-8677-exec-8 [INFO ]  2022-09-18 20:08:01.428  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918200801   20220918205645  -4844
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:08:01.430  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-8 [INFO ]  2022-09-18 20:08:01.430  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+Thread-10 [INFO ]  2022-09-18 20:11:59.697  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - doClose 991 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@70e616c5: startup date [Sun Sep 18 20:06:08 CST 2022]; root of context hierarchy
+Thread-10 [INFO ]  2022-09-18 20:11:59.699  o.s.j.e.a.AnnotationMBeanExporter - destroy 451 - Unregistering JMX-exposed beans on shutdown
+Thread-10 [INFO ]  2022-09-18 20:11:59.700  o.s.j.e.a.AnnotationMBeanExporter - unregisterBeans 185 - Unregistering JMX-exposed beans
+Thread-10 [INFO ]  2022-09-18 20:11:59.703  c.a.d.p.DruidDataSource - close 1383 - {dataSource-2} closed
+restartedMain [INFO ]  2022-09-18 20:12:00.589  c.e.TestApplication - logStarting 50 - Starting TestApplication on you with PID 13632 (started by Administrator in D:\xuexi\xm\springboot项目\updatetest\test)
+restartedMain [INFO ]  2022-09-18 20:12:00.590  c.e.TestApplication - logStartupProfileInfo 654 - No active profile set, falling back to default profiles: default
+restartedMain [INFO ]  2022-09-18 20:12:00.599  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - prepareRefresh 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@705d403c: startup date [Sun Sep 18 20:12:00 CST 2022]; root of context hierarchy
+restartedMain [WARN ]  2022-09-18 20:12:01.160  o.m.s.m.ClassPathMapperScanner - doScan 166 - No MyBatis mapper was found in '[com.example.test.dao]' package. Please check your configuration.
+restartedMain [WARN ]  2022-09-18 20:12:01.200  o.m.s.m.ClassPathMapperScanner - doScan 166 - No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+restartedMain [INFO ]  2022-09-18 20:12:01.576  o.s.b.w.e.t.TomcatWebServer - initialize 91 - Tomcat initialized with port(s): 8677 (http)
+restartedMain [INFO ]  2022-09-18 20:12:01.579  o.a.c.h.Http11NioProtocol - log 180 - Initializing ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:12:01.580  o.a.c.c.StandardService - log 180 - Starting service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:12:01.580  o.a.c.c.StandardEngine - log 180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.618  o.a.c.c.AprLifecycleListener - log 180 - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.620  o.a.c.c.AprLifecycleListener - log 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.620  o.a.c.c.AprLifecycleListener - log 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.621  o.a.c.c.AprLifecycleListener - log 180 - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.684  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring embedded WebApplicationContext
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.684  o.s.w.c.ContextLoader - prepareWebApplicationContext 285 - Root WebApplicationContext: initialization completed in 1085 ms
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.714  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet dispatcherServlet mapped to [/]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.717  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet statViewServlet mapped to [/druid/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.717  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.719  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.719  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.719  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'requestContextFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:01.720  o.s.b.w.s.FilterRegistrationBean - configure 258 - Mapping filter: 'webStatFilter' to urls: [/*]
+restartedMain [INFO ]  2022-09-18 20:12:01.776  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:12:01.868  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - initControllerAdviceCache 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@705d403c: startup date [Sun Sep 18 20:12:00 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:12:01.880  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:12:01.881  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+restartedMain [INFO ]  2022-09-18 20:12:01.899  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:12:01.899  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [WARN ]  2022-09-18 20:12:01.928  o.t.t.TemplateMode - parse 150 - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+restartedMain [WARN ]  2022-09-18 20:12:02.117  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 556 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+restartedMain [INFO ]  2022-09-18 20:12:02.119  o.a.c.c.StandardService - log 180 - Stopping service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:12:02.192  o.s.b.a.l.ConditionEvaluationReportLoggingListener - logMessage 142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+restartedMain [ERROR]  2022-09-18 20:12:02.194  o.s.b.SpringApplication - reportFailure 837 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:548)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.example.TestApplication.main(TestApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583)
+	... 23 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913$$FastClassBySpringCGLIB$$fec34bb5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 24 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 37 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 39 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 45 common frames omitted
+restartedMain [INFO ]  2022-09-18 20:12:08.730  c.e.TestApplication - logStarting 50 - Starting TestApplication on you with PID 13632 (started by Administrator in D:\xuexi\xm\springboot项目\updatetest\test)
+restartedMain [INFO ]  2022-09-18 20:12:08.730  c.e.TestApplication - logStartupProfileInfo 654 - No active profile set, falling back to default profiles: default
+restartedMain [INFO ]  2022-09-18 20:12:08.734  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - prepareRefresh 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2caac767: startup date [Sun Sep 18 20:12:08 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:12:09.301  o.s.b.w.e.t.TomcatWebServer - initialize 91 - Tomcat initialized with port(s): 8677 (http)
+restartedMain [INFO ]  2022-09-18 20:12:09.301  o.a.c.h.Http11NioProtocol - log 180 - Initializing ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:12:09.302  o.a.c.c.StandardService - log 180 - Starting service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:12:09.302  o.a.c.c.StandardEngine - log 180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.311  o.a.c.c.AprLifecycleListener - log 180 - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.313  o.a.c.c.AprLifecycleListener - log 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.313  o.a.c.c.AprLifecycleListener - log 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.313  o.a.c.c.AprLifecycleListener - log 180 - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.351  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring embedded WebApplicationContext
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.352  o.s.w.c.ContextLoader - prepareWebApplicationContext 285 - Root WebApplicationContext: initialization completed in 618 ms
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.396  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet dispatcherServlet mapped to [/]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.397  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet statViewServlet mapped to [/druid/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.398  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.398  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.398  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.398  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'requestContextFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:12:09.399  o.s.b.w.s.FilterRegistrationBean - configure 258 - Mapping filter: 'webStatFilter' to urls: [/*]
+restartedMain [WARN ]  2022-09-18 20:12:09.704  o.t.t.TemplateMode - parse 150 - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+restartedMain [INFO ]  2022-09-18 20:12:09.832  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:12:09.954  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - initControllerAdviceCache 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2caac767: startup date [Sun Sep 18 20:12:08 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:12:09.966  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/login/error || /error/500]}" onto public org.springframework.web.servlet.ModelAndView com.example.test.controller.Error.errorHandler.loginError(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+restartedMain [INFO ]  2022-09-18 20:12:09.968  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/ || /home],methods=[GET]}" onto public java.lang.String com.example.test.controller.IndexController.index()
+restartedMain [INFO ]  2022-09-18 20:12:09.969  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/ || /main/home || /main],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.index(org.springframework.web.servlet.ModelAndView,com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:12:09.969  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/ || /main/home || /main],methods=[POST]}" onto public java.lang.String com.example.test.controller.MainController.index_post(org.springframework.web.servlet.ModelAndView,com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:12:09.969  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/queryPerson],methods=[POST]}" onto public java.lang.String com.example.test.controller.MainController.queryPerson(java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.web.servlet.mvc.support.RedirectAttributes) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:12:09.970  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/upload],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.upload()
+restartedMain [INFO ]  2022-09-18 20:12:09.970  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/sendEmail],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.sendEmail(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws javax.mail.MessagingException
+restartedMain [INFO ]  2022-09-18 20:12:09.970  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/Msg],methods=[GET]}" onto public com.example.test.pojo.MsgVehicle com.example.test.controller.MainController.RetuMsg(com.example.test.pojo.MsgVehicle,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+restartedMain [INFO ]  2022-09-18 20:12:09.970  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/asyn/update]}" onto public org.springframework.web.servlet.ModelAndView com.example.test.controller.RoleController.queryAll()
+restartedMain [INFO ]  2022-09-18 20:12:09.971  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login/login_role],methods=[GET]}" onto private java.lang.String com.example.test.controller.RoleLoginController.get_role()
+restartedMain [INFO ]  2022-09-18 20:12:09.972  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login/login_role],methods=[POST]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_pwd(org.springframework.web.servlet.mvc.support.RedirectAttributes,com.example.test.pojo.MsgVehicle,org.springframework.validation.BindingResult)
+restartedMain [INFO ]  2022-09-18 20:12:09.972  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/acc],methods=[POST]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_post(java.lang.String)
+restartedMain [INFO ]  2022-09-18 20:12:09.972  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/acc/{id}],methods=[GET]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_id(java.lang.Object)
+restartedMain [INFO ]  2022-09-18 20:12:09.972  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/dire],methods=[GET]}" onto private java.lang.String com.example.test.controller.RoleLoginController.redi_main(com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:12:09.972  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login || /role/]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_load(com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:12:09.973  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:12:09.974  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+restartedMain [INFO ]  2022-09-18 20:12:09.993  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:12:09.993  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:12:10.003  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - initExceptionHandlerAdviceCache 288 - Detected @ExceptionHandler methods in sellerExceptionHandler
+restartedMain [INFO ]  2022-09-18 20:12:10.095  o.s.w.s.v.f.FreeMarkerConfigurer - postProcessTemplateLoaders 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+restartedMain [INFO ]  2022-09-18 20:12:10.491  o.s.b.d.a.OptionalLiveReloadServer - startServer 57 - LiveReload server is running on port 35729
+restartedMain [INFO ]  2022-09-18 20:12:10.505  o.s.j.e.a.AnnotationMBeanExporter - afterSingletonsInstantiated 433 - Registering beans for JMX exposure on startup
+restartedMain [INFO ]  2022-09-18 20:12:10.506  o.s.j.e.a.AnnotationMBeanExporter - autodetect 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+restartedMain [INFO ]  2022-09-18 20:12:10.508  o.s.j.e.a.AnnotationMBeanExporter - registerBeanInstance 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+restartedMain [INFO ]  2022-09-18 20:12:10.514  o.a.c.h.Http11NioProtocol - log 180 - Starting ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:12:10.516  o.a.t.u.n.NioSelectorPool - log 180 - Using a shared selector for servlet write/read
+restartedMain [INFO ]  2022-09-18 20:12:10.520  o.s.b.w.e.t.TomcatWebServer - start 206 - Tomcat started on port(s): 8677 (http) with context path ''
+restartedMain [INFO ]  2022-09-18 20:12:10.522  c.e.TestApplication - logStarted 59 - Started TestApplication in 1.828 seconds (JVM running for 714.018)
+restartedMain [INFO ]  2022-09-18 20:12:10.524  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - onApplicationEvent 56 - Condition evaluation unchanged
+restartedMain [WARN ]  2022-09-18 20:12:10.525  c.e.TestApplication - main 17 - <<<<<<<<<<启动成功>>>>>>>>>>
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:12:22.110  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:12:22.111  o.s.w.s.DispatcherServlet - initServletBean 494 - FrameworkServlet 'dispatcherServlet': initialization started
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:12:22.121  o.s.w.s.DispatcherServlet - initServletBean 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:12:22.129  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@14798b99  javax.servlet.http.Cookie@2ee48e65  
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:12:22.131  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918201222   20220918205645  -4423
+http-nio-8677-exec-5 [WARN ]  2022-09-18 20:13:55.913  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@cc9d699  javax.servlet.http.Cookie@5675ab2e  
+http-nio-8677-exec-5 [INFO ]  2022-09-18 20:13:55.914  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918201355   20220918205645  -4290
+Thread-19 [INFO ]  2022-09-18 20:16:41.455  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - doClose 991 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2caac767: startup date [Sun Sep 18 20:12:08 CST 2022]; root of context hierarchy
+Thread-19 [INFO ]  2022-09-18 20:16:41.457  o.s.j.e.a.AnnotationMBeanExporter - destroy 451 - Unregistering JMX-exposed beans on shutdown
+Thread-19 [INFO ]  2022-09-18 20:16:41.458  o.s.j.e.a.AnnotationMBeanExporter - unregisterBeans 185 - Unregistering JMX-exposed beans
+restartedMain [INFO ]  2022-09-18 20:16:42.511  c.e.TestApplication - logStarting 50 - Starting TestApplication on you with PID 13632 (started by Administrator in D:\xuexi\xm\springboot项目\updatetest\test)
+restartedMain [INFO ]  2022-09-18 20:16:42.512  c.e.TestApplication - logStartupProfileInfo 654 - No active profile set, falling back to default profiles: default
+restartedMain [INFO ]  2022-09-18 20:16:42.517  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - prepareRefresh 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18a449a4: startup date [Sun Sep 18 20:16:42 CST 2022]; root of context hierarchy
+restartedMain [WARN ]  2022-09-18 20:16:43.007  o.m.s.m.ClassPathMapperScanner - doScan 166 - No MyBatis mapper was found in '[com.example.test.dao]' package. Please check your configuration.
+restartedMain [WARN ]  2022-09-18 20:16:43.050  o.m.s.m.ClassPathMapperScanner - doScan 166 - No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+restartedMain [INFO ]  2022-09-18 20:16:43.294  o.s.b.w.e.t.TomcatWebServer - initialize 91 - Tomcat initialized with port(s): 8677 (http)
+restartedMain [INFO ]  2022-09-18 20:16:43.295  o.a.c.h.Http11NioProtocol - log 180 - Initializing ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:16:43.295  o.a.c.c.StandardService - log 180 - Starting service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:16:43.296  o.a.c.c.StandardEngine - log 180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.298  o.a.c.c.AprLifecycleListener - log 180 - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.299  o.a.c.c.AprLifecycleListener - log 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.299  o.a.c.c.AprLifecycleListener - log 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.299  o.a.c.c.AprLifecycleListener - log 180 - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.344  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring embedded WebApplicationContext
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.344  o.s.w.c.ContextLoader - prepareWebApplicationContext 285 - Root WebApplicationContext: initialization completed in 827 ms
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.364  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet dispatcherServlet mapped to [/]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.365  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet statViewServlet mapped to [/druid/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.366  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.366  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.366  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.367  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'requestContextFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:43.367  o.s.b.w.s.FilterRegistrationBean - configure 258 - Mapping filter: 'webStatFilter' to urls: [/*]
+restartedMain [INFO ]  2022-09-18 20:16:43.402  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:16:43.456  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - initControllerAdviceCache 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18a449a4: startup date [Sun Sep 18 20:16:42 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:16:43.466  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:16:43.467  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+restartedMain [INFO ]  2022-09-18 20:16:43.482  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:16:43.482  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [WARN ]  2022-09-18 20:16:43.531  o.t.t.TemplateMode - parse 150 - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+restartedMain [WARN ]  2022-09-18 20:16:43.666  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 556 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+restartedMain [INFO ]  2022-09-18 20:16:43.698  o.a.c.c.StandardService - log 180 - Stopping service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:16:43.908  o.s.b.a.l.ConditionEvaluationReportLoggingListener - logMessage 142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+restartedMain [ERROR]  2022-09-18 20:16:43.912  o.s.b.SpringApplication - reportFailure 837 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:548)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.example.TestApplication.main(TestApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583)
+	... 23 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913$$FastClassBySpringCGLIB$$fec34bb5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 24 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 37 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 39 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 45 common frames omitted
+restartedMain [INFO ]  2022-09-18 20:16:53.001  c.e.TestApplication - logStarting 50 - Starting TestApplication on you with PID 13632 (started by Administrator in D:\xuexi\xm\springboot项目\updatetest\test)
+restartedMain [INFO ]  2022-09-18 20:16:53.002  c.e.TestApplication - logStartupProfileInfo 654 - No active profile set, falling back to default profiles: default
+restartedMain [INFO ]  2022-09-18 20:16:53.004  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - prepareRefresh 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61b7bec9: startup date [Sun Sep 18 20:16:53 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:16:53.501  o.s.b.w.e.t.TomcatWebServer - initialize 91 - Tomcat initialized with port(s): 8677 (http)
+restartedMain [INFO ]  2022-09-18 20:16:53.503  o.a.c.h.Http11NioProtocol - log 180 - Initializing ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:16:53.503  o.a.c.c.StandardService - log 180 - Starting service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:16:53.503  o.a.c.c.StandardEngine - log 180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.505  o.a.c.c.AprLifecycleListener - log 180 - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.506  o.a.c.c.AprLifecycleListener - log 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.506  o.a.c.c.AprLifecycleListener - log 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.507  o.a.c.c.AprLifecycleListener - log 180 - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.546  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring embedded WebApplicationContext
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.546  o.s.w.c.ContextLoader - prepareWebApplicationContext 285 - Root WebApplicationContext: initialization completed in 542 ms
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.582  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet dispatcherServlet mapped to [/]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.583  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet statViewServlet mapped to [/druid/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.583  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.584  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.584  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.584  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'requestContextFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:16:53.584  o.s.b.w.s.FilterRegistrationBean - configure 258 - Mapping filter: 'webStatFilter' to urls: [/*]
+restartedMain [WARN ]  2022-09-18 20:16:53.894  o.t.t.TemplateMode - parse 150 - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+restartedMain [INFO ]  2022-09-18 20:16:54.027  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:16:54.137  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - initControllerAdviceCache 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61b7bec9: startup date [Sun Sep 18 20:16:53 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:16:54.147  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/login/error || /error/500]}" onto public org.springframework.web.servlet.ModelAndView com.example.test.controller.Error.errorHandler.loginError(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+restartedMain [INFO ]  2022-09-18 20:16:54.147  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/ || /home],methods=[GET]}" onto public java.lang.String com.example.test.controller.IndexController.index()
+restartedMain [INFO ]  2022-09-18 20:16:54.149  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/ || /main/home || /main],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.index(org.springframework.web.servlet.ModelAndView,com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:16:54.150  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/ || /main/home || /main],methods=[POST]}" onto public java.lang.String com.example.test.controller.MainController.index_post(org.springframework.web.servlet.ModelAndView,com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:16:54.150  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/queryPerson],methods=[POST]}" onto public java.lang.String com.example.test.controller.MainController.queryPerson(java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.web.servlet.mvc.support.RedirectAttributes) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:16:54.150  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/upload],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.upload()
+restartedMain [INFO ]  2022-09-18 20:16:54.151  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/sendEmail],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.sendEmail(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws javax.mail.MessagingException
+restartedMain [INFO ]  2022-09-18 20:16:54.151  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/Msg],methods=[GET]}" onto public com.example.test.pojo.MsgVehicle com.example.test.controller.MainController.RetuMsg(com.example.test.pojo.MsgVehicle,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+restartedMain [INFO ]  2022-09-18 20:16:54.151  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/asyn/update]}" onto public org.springframework.web.servlet.ModelAndView com.example.test.controller.RoleController.queryAll()
+restartedMain [INFO ]  2022-09-18 20:16:54.152  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login/login_role],methods=[GET]}" onto private java.lang.String com.example.test.controller.RoleLoginController.get_role()
+restartedMain [INFO ]  2022-09-18 20:16:54.152  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login/login_role],methods=[POST]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_pwd(org.springframework.web.servlet.mvc.support.RedirectAttributes,com.example.test.pojo.MsgVehicle,org.springframework.validation.BindingResult)
+restartedMain [INFO ]  2022-09-18 20:16:54.153  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/acc],methods=[POST]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_post(java.lang.String)
+restartedMain [INFO ]  2022-09-18 20:16:54.153  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/acc/{id}],methods=[GET]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_id(java.lang.Object)
+restartedMain [INFO ]  2022-09-18 20:16:54.153  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/dire],methods=[GET]}" onto private java.lang.String com.example.test.controller.RoleLoginController.redi_main(com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:16:54.153  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login || /role/]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_load(com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:16:54.154  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:16:54.154  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+restartedMain [INFO ]  2022-09-18 20:16:54.171  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:16:54.171  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:16:54.178  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - initExceptionHandlerAdviceCache 288 - Detected @ExceptionHandler methods in sellerExceptionHandler
+restartedMain [INFO ]  2022-09-18 20:16:54.233  o.s.w.s.v.f.FreeMarkerConfigurer - postProcessTemplateLoaders 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+restartedMain [INFO ]  2022-09-18 20:16:54.596  o.s.b.d.a.OptionalLiveReloadServer - startServer 57 - LiveReload server is running on port 35729
+restartedMain [INFO ]  2022-09-18 20:16:54.617  o.s.j.e.a.AnnotationMBeanExporter - afterSingletonsInstantiated 433 - Registering beans for JMX exposure on startup
+restartedMain [INFO ]  2022-09-18 20:16:54.618  o.s.j.e.a.AnnotationMBeanExporter - autodetect 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+restartedMain [INFO ]  2022-09-18 20:16:54.620  o.s.j.e.a.AnnotationMBeanExporter - registerBeanInstance 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+restartedMain [INFO ]  2022-09-18 20:16:54.625  o.a.c.h.Http11NioProtocol - log 180 - Starting ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:16:54.626  o.a.t.u.n.NioSelectorPool - log 180 - Using a shared selector for servlet write/read
+restartedMain [INFO ]  2022-09-18 20:16:54.633  o.s.b.w.e.t.TomcatWebServer - start 206 - Tomcat started on port(s): 8677 (http) with context path ''
+restartedMain [INFO ]  2022-09-18 20:16:54.634  c.e.TestApplication - logStarted 59 - Started TestApplication in 1.67 seconds (JVM running for 998.13)
+restartedMain [INFO ]  2022-09-18 20:16:54.636  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - onApplicationEvent 56 - Condition evaluation unchanged
+restartedMain [WARN ]  2022-09-18 20:16:54.637  c.e.TestApplication - main 17 - <<<<<<<<<<启动成功>>>>>>>>>>
+Thread-28 [INFO ]  2022-09-18 20:18:37.837  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - doClose 991 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61b7bec9: startup date [Sun Sep 18 20:16:53 CST 2022]; root of context hierarchy
+Thread-28 [INFO ]  2022-09-18 20:18:37.841  o.s.j.e.a.AnnotationMBeanExporter - destroy 451 - Unregistering JMX-exposed beans on shutdown
+Thread-28 [INFO ]  2022-09-18 20:18:37.842  o.s.j.e.a.AnnotationMBeanExporter - unregisterBeans 185 - Unregistering JMX-exposed beans
+restartedMain [INFO ]  2022-09-18 20:18:38.642  c.e.TestApplication - logStarting 50 - Starting TestApplication on you with PID 13632 (started by Administrator in D:\xuexi\xm\springboot项目\updatetest\test)
+restartedMain [INFO ]  2022-09-18 20:18:38.643  c.e.TestApplication - logStartupProfileInfo 654 - No active profile set, falling back to default profiles: default
+restartedMain [INFO ]  2022-09-18 20:18:38.647  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - prepareRefresh 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@689fdc9c: startup date [Sun Sep 18 20:18:38 CST 2022]; root of context hierarchy
+restartedMain [WARN ]  2022-09-18 20:18:39.037  o.m.s.m.ClassPathMapperScanner - doScan 166 - No MyBatis mapper was found in '[com.example.test.dao]' package. Please check your configuration.
+restartedMain [WARN ]  2022-09-18 20:18:39.066  o.m.s.m.ClassPathMapperScanner - doScan 166 - No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+restartedMain [INFO ]  2022-09-18 20:18:39.320  o.s.b.w.e.t.TomcatWebServer - initialize 91 - Tomcat initialized with port(s): 8677 (http)
+restartedMain [INFO ]  2022-09-18 20:18:39.321  o.a.c.h.Http11NioProtocol - log 180 - Initializing ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:18:39.322  o.a.c.c.StandardService - log 180 - Starting service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:18:39.322  o.a.c.c.StandardEngine - log 180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.329  o.a.c.c.AprLifecycleListener - log 180 - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.331  o.a.c.c.AprLifecycleListener - log 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.331  o.a.c.c.AprLifecycleListener - log 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.332  o.a.c.c.AprLifecycleListener - log 180 - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.434  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring embedded WebApplicationContext
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.435  o.s.w.c.ContextLoader - prepareWebApplicationContext 285 - Root WebApplicationContext: initialization completed in 788 ms
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.459  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet dispatcherServlet mapped to [/]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.460  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet statViewServlet mapped to [/druid/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.460  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.461  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.461  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.462  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'requestContextFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:39.462  o.s.b.w.s.FilterRegistrationBean - configure 258 - Mapping filter: 'webStatFilter' to urls: [/*]
+restartedMain [INFO ]  2022-09-18 20:18:39.504  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:18:39.571  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - initControllerAdviceCache 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@689fdc9c: startup date [Sun Sep 18 20:18:38 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:18:39.581  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:18:39.582  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+restartedMain [INFO ]  2022-09-18 20:18:39.589  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:18:39.590  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [WARN ]  2022-09-18 20:18:39.621  o.t.t.TemplateMode - parse 150 - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+restartedMain [WARN ]  2022-09-18 20:18:39.692  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 556 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+restartedMain [INFO ]  2022-09-18 20:18:39.693  o.a.c.c.StandardService - log 180 - Stopping service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:18:39.726  o.s.b.a.l.ConditionEvaluationReportLoggingListener - logMessage 142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+restartedMain [ERROR]  2022-09-18 20:18:39.727  o.s.b.SpringApplication - reportFailure 837 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:548)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.example.TestApplication.main(TestApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583)
+	... 23 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913$$FastClassBySpringCGLIB$$fec34bb5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 24 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 37 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 39 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 45 common frames omitted
+restartedMain [INFO ]  2022-09-18 20:18:53.654  c.e.TestApplication - logStarting 50 - Starting TestApplication on you with PID 13632 (started by Administrator in D:\xuexi\xm\springboot项目\updatetest\test)
+restartedMain [INFO ]  2022-09-18 20:18:53.654  c.e.TestApplication - logStartupProfileInfo 654 - No active profile set, falling back to default profiles: default
+restartedMain [INFO ]  2022-09-18 20:18:53.657  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - prepareRefresh 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@de37cb3: startup date [Sun Sep 18 20:18:53 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:18:54.235  o.s.b.w.e.t.TomcatWebServer - initialize 91 - Tomcat initialized with port(s): 8677 (http)
+restartedMain [INFO ]  2022-09-18 20:18:54.236  o.a.c.h.Http11NioProtocol - log 180 - Initializing ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:18:54.236  o.a.c.c.StandardService - log 180 - Starting service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:18:54.236  o.a.c.c.StandardEngine - log 180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.238  o.a.c.c.AprLifecycleListener - log 180 - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.239  o.a.c.c.AprLifecycleListener - log 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.239  o.a.c.c.AprLifecycleListener - log 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.239  o.a.c.c.AprLifecycleListener - log 180 - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.272  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring embedded WebApplicationContext
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.272  o.s.w.c.ContextLoader - prepareWebApplicationContext 285 - Root WebApplicationContext: initialization completed in 615 ms
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.299  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet dispatcherServlet mapped to [/]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.300  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet statViewServlet mapped to [/druid/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.301  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.301  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.301  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.301  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'requestContextFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:18:54.301  o.s.b.w.s.FilterRegistrationBean - configure 258 - Mapping filter: 'webStatFilter' to urls: [/*]
+restartedMain [WARN ]  2022-09-18 20:18:54.521  o.t.t.TemplateMode - parse 150 - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+restartedMain [INFO ]  2022-09-18 20:18:54.658  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:18:54.750  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - initControllerAdviceCache 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@de37cb3: startup date [Sun Sep 18 20:18:53 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:18:54.759  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/login/error || /error/500]}" onto public org.springframework.web.servlet.ModelAndView com.example.test.controller.Error.errorHandler.loginError(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+restartedMain [INFO ]  2022-09-18 20:18:54.760  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/ || /home],methods=[GET]}" onto public java.lang.String com.example.test.controller.IndexController.index()
+restartedMain [INFO ]  2022-09-18 20:18:54.761  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/ || /main/home || /main],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.index(org.springframework.web.servlet.ModelAndView,com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:18:54.762  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/ || /main/home || /main],methods=[POST]}" onto public java.lang.String com.example.test.controller.MainController.index_post(org.springframework.web.servlet.ModelAndView,com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:18:54.762  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/queryPerson],methods=[POST]}" onto public java.lang.String com.example.test.controller.MainController.queryPerson(java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.web.servlet.mvc.support.RedirectAttributes) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:18:54.762  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/upload],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.upload()
+restartedMain [INFO ]  2022-09-18 20:18:54.762  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/sendEmail],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.sendEmail(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws javax.mail.MessagingException
+restartedMain [INFO ]  2022-09-18 20:18:54.763  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/Msg],methods=[GET]}" onto public com.example.test.pojo.MsgVehicle com.example.test.controller.MainController.RetuMsg(com.example.test.pojo.MsgVehicle,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+restartedMain [INFO ]  2022-09-18 20:18:54.763  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/asyn/update]}" onto public org.springframework.web.servlet.ModelAndView com.example.test.controller.RoleController.queryAll()
+restartedMain [INFO ]  2022-09-18 20:18:54.764  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login/login_role],methods=[GET]}" onto private java.lang.String com.example.test.controller.RoleLoginController.get_role()
+restartedMain [INFO ]  2022-09-18 20:18:54.764  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login/login_role],methods=[POST]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_pwd(org.springframework.web.servlet.mvc.support.RedirectAttributes,com.example.test.pojo.MsgVehicle,org.springframework.validation.BindingResult)
+restartedMain [INFO ]  2022-09-18 20:18:54.764  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/acc],methods=[POST]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_post(java.lang.String)
+restartedMain [INFO ]  2022-09-18 20:18:54.765  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/acc/{id}],methods=[GET]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_id(java.lang.Object)
+restartedMain [INFO ]  2022-09-18 20:18:54.765  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/dire],methods=[GET]}" onto private java.lang.String com.example.test.controller.RoleLoginController.redi_main(com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:18:54.765  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login || /role/]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_load(com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:18:54.766  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:18:54.766  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+restartedMain [INFO ]  2022-09-18 20:18:54.782  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:18:54.782  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:18:54.788  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - initExceptionHandlerAdviceCache 288 - Detected @ExceptionHandler methods in sellerExceptionHandler
+restartedMain [INFO ]  2022-09-18 20:18:54.852  o.s.w.s.v.f.FreeMarkerConfigurer - postProcessTemplateLoaders 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+restartedMain [INFO ]  2022-09-18 20:18:55.151  o.s.b.d.a.OptionalLiveReloadServer - startServer 57 - LiveReload server is running on port 35729
+restartedMain [INFO ]  2022-09-18 20:18:55.160  o.s.j.e.a.AnnotationMBeanExporter - afterSingletonsInstantiated 433 - Registering beans for JMX exposure on startup
+restartedMain [INFO ]  2022-09-18 20:18:55.161  o.s.j.e.a.AnnotationMBeanExporter - autodetect 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+restartedMain [INFO ]  2022-09-18 20:18:55.162  o.s.j.e.a.AnnotationMBeanExporter - registerBeanInstance 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+restartedMain [INFO ]  2022-09-18 20:18:55.165  o.a.c.h.Http11NioProtocol - log 180 - Starting ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:18:55.166  o.a.t.u.n.NioSelectorPool - log 180 - Using a shared selector for servlet write/read
+restartedMain [INFO ]  2022-09-18 20:18:55.170  o.s.b.w.e.t.TomcatWebServer - start 206 - Tomcat started on port(s): 8677 (http) with context path ''
+restartedMain [INFO ]  2022-09-18 20:18:55.170  c.e.TestApplication - logStarted 59 - Started TestApplication in 1.954 seconds (JVM running for 1118.666)
+restartedMain [INFO ]  2022-09-18 20:18:55.172  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - onApplicationEvent 56 - Condition evaluation unchanged
+restartedMain [WARN ]  2022-09-18 20:18:55.172  c.e.TestApplication - main 17 - <<<<<<<<<<启动成功>>>>>>>>>>
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:19:03.372  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:19:03.372  o.s.w.s.DispatcherServlet - initServletBean 494 - FrameworkServlet 'dispatcherServlet': initialization started
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:19:03.386  o.s.w.s.DispatcherServlet - initServletBean 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:19:03.406  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@1fac1d3d  javax.servlet.http.Cookie@59decdee  
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:19:03.409  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918201903   20220918205645  -3742
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:19:05.423  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:19:05.423  c.e.t.p.C.CacheOperation - addCacheData 52 - 缓存大小0
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:19:05.423  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@6cbbb8f3  javax.servlet.http.Cookie@4c8ea25b  
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:19:05.424  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918201905   20220918205645  -3740
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:19:05.427  c.e.t.c.MainController - queryPerson 94 - null
+	null
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:19:05.428  c.e.C.C.CookieUtil - delCookie 193 - 删除cookie[Ljava.lang.String;@fad8e98
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:19:21.172  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】null  null  
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:19:21.191  c.e.t.c.E.SellerExceptionHandler - handlerSellerAuthorizeException 40 - >com.example.test.controller.Error.SellerAuthorizeException: 【登录校验】Cookie中查不到token,请·重新·登录
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:19:21.191  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - logException 194 - Resolved exception caused by handler execution: com.example.test.controller.Error.SellerAuthorizeException: 【登录校验】Cookie中查不到token,请·重新·登录
+http-nio-8677-exec-3 [INFO ]  2022-09-18 20:19:21.480  c.e.t.c.RoleLoginController - login_load 67 - 主机ip+ip192.168.0.105;》》:0:0:0:0:0:0:0:1
+http-nio-8677-exec-3 [INFO ]  2022-09-18 20:19:25.459  c.e.t.c.RoleLoginController - login_pwd 117 - phone:123123;   resultorg.springframework.validation.BeanPropertyBindingResult: 0 errors
+http-nio-8677-exec-3 [INFO ]  2022-09-18 20:19:25.479  c.a.d.p.DruidDataSource - init 667 - {dataSource-3} inited
+http-nio-8677-exec-3 [DEBUG]  2022-09-18 20:19:25.488  c.e.t.d.R.selectOneByPhone - debug 159 - ==>  Preparing: select roleName, role_Pwd, roleSex, rolePhone, roleAuth,roleCard, roleEmail, roleJob,roleLeader from role where rolePhone = ? 
+http-nio-8677-exec-3 [DEBUG]  2022-09-18 20:19:25.489  c.e.t.d.R.selectOneByPhone - debug 159 - ==> Parameters: 123123(String)
+http-nio-8677-exec-3 [TRACE]  2022-09-18 20:19:25.491  c.e.t.d.R.selectOneByPhone - trace 165 - <==    Columns: roleName, role_Pwd, roleSex, rolePhone, roleAuth, roleCard, roleEmail, roleJob, roleLeader
+http-nio-8677-exec-3 [TRACE]  2022-09-18 20:19:25.492  c.e.t.d.R.selectOneByPhone - trace 165 - <==        Row: 上传文件, 123123, null, 123123, 2, null, 3426564320@qq.com, null, null
+http-nio-8677-exec-3 [DEBUG]  2022-09-18 20:19:25.493  c.e.t.d.R.selectOneByPhone - debug 159 - <==      Total: 1
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:19:25.522  c.e.C.C.CookieUtil - set 58 - setcookie:role>>>上传文件
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:19:25.526  c.e.C.C.CookieUtil - set 58 - setcookie:time>>>20220918211925
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:19:25.527  c.e.C.C.CookieUtil - set 58 - setcookie:phone>>>123123
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:19:25.557  c.e.C.C.CookieUtil - set 58 - setcookie:bean>>>%7B%22roleAuth%22%3A%222%22%2C%22roleEmail%22%3A%223426564320%40qq.com%22%2C%22roleId%22%3A%22null%22%2C%22roleName%22%3A%22%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%22%2C%22rolePhone%22%3A%22123123%22%2C%22role_Pwd%22%3A%22123123%22%7D
+http-nio-8677-exec-7 [WARN ]  2022-09-18 20:19:25.571  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@36170507  javax.servlet.http.Cookie@201ffbd2  
+http-nio-8677-exec-7 [INFO ]  2022-09-18 20:19:25.572  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918201925   20220918211925  -10000
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:19:27.387  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:19:27.388  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：1>>最大次数maxVisitCount  10
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:19:27.389  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差21965 周期60000 第一次时间1663503545423 本地时间1663503567388
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:19:30.403  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@5ddbccbd  javax.servlet.http.Cookie@65595e2f  
+http-nio-8677-exec-4 [INFO ]  2022-09-18 20:19:30.404  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918201930   20220918211925  -9995
+http-nio-8677-exec-4 [INFO ]  2022-09-18 20:19:30.406  c.e.t.c.MainController - getEntry 194 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:19:30.407  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-4 [INFO ]  2022-09-18 20:19:30.407  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-4 [DEBUG]  2022-09-18 20:19:30.408  c.e.t.d.S.querySalary - debug 159 - ==>  Preparing: select * from salary where salaId = ? 
+http-nio-8677-exec-4 [DEBUG]  2022-09-18 20:19:30.409  c.e.t.d.S.querySalary - debug 159 - ==> Parameters: 123123(String)
+http-nio-8677-exec-4 [DEBUG]  2022-09-18 20:19:30.412  c.e.t.d.S.querySalary - debug 159 - <==      Total: 1
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:20:38.234  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:20:38.234  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:20:38.236  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：2>>最大次数maxVisitCount  10
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:20:38.236  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：2>>最大次数maxVisitCount  10
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:20:38.236  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差92813 周期60000 第一次时间1663503545423 本地时间1663503638236
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:20:38.236  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差92813 周期60000 第一次时间1663503545423 本地时间1663503638236
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:20:38.237  c.e.t.p.C.CacheOperation - addCacheData 52 - 缓存大小0
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:20:38.237  c.e.t.p.C.CacheOperation - addCacheData 52 - 缓存大小0
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:20:38.238  c.e.t.p.C.CacheOperation - addCacheData 58 - WEB缓存：key值= req_http://localhost:8677/main/queryPerson0:0:0:0:0:0:0:1 在缓存中重复, 本次不缓存！
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:20:39.243  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@49437ba7  javax.servlet.http.Cookie@67ba8fe6  
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:20:39.243  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@4c4e72db  javax.servlet.http.Cookie@569c6a5d  
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:20:39.243  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202039   20220918211925  -9886
+http-nio-8677-exec-8 [INFO ]  2022-09-18 20:20:39.243  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202039   20220918211925  -9886
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:20:39.244  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:20:39.244  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:20:39.244  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-8 [INFO ]  2022-09-18 20:20:39.244  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:20:45.462  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:20:45.463  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：1>>最大次数maxVisitCount  10
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:20:45.464  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差7226 周期60000 第一次时间1663503638237 本地时间1663503645463
+http-nio-8677-exec-3 [WARN ]  2022-09-18 20:20:45.466  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-3 [WARN ]  2022-09-18 20:20:45.467  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：2>>最大次数maxVisitCount  10
+http-nio-8677-exec-3 [WARN ]  2022-09-18 20:20:45.468  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差7230 周期60000 第一次时间1663503638237 本地时间1663503645467
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:20:45.470  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:20:45.472  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：3>>最大次数maxVisitCount  10
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:20:45.473  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差7235 周期60000 第一次时间1663503638237 本地时间1663503645472
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:20:46.477  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@56ff9058  javax.servlet.http.Cookie@7978148e  
+http-nio-8677-exec-3 [WARN ]  2022-09-18 20:20:46.477  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@7e89fc56  javax.servlet.http.Cookie@55b50a30  
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:20:46.477  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@8e31402  javax.servlet.http.Cookie@3bf88bf1  
+http-nio-8677-exec-3 [INFO ]  2022-09-18 20:20:46.478  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202046   20220918211925  -9879
+http-nio-8677-exec-4 [INFO ]  2022-09-18 20:20:46.478  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202046   20220918211925  -9879
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:20:46.478  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202046   20220918211925  -9879
+http-nio-8677-exec-3 [WARN ]  2022-09-18 20:20:46.478  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-4 [WARN ]  2022-09-18 20:20:46.478  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:20:46.478  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-3 [INFO ]  2022-09-18 20:20:46.478  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-4 [INFO ]  2022-09-18 20:20:46.478  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:20:46.478  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-6 [WARN ]  2022-09-18 20:21:55.921  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-6 [WARN ]  2022-09-18 20:21:55.922  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：4>>最大次数maxVisitCount  10
+http-nio-8677-exec-6 [WARN ]  2022-09-18 20:21:55.922  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差77685 周期60000 第一次时间1663503638237 本地时间1663503715922
+http-nio-8677-exec-6 [WARN ]  2022-09-18 20:21:55.923  c.e.t.p.C.CacheOperation - addCacheData 52 - 缓存大小0
+http-nio-8677-exec-10 [WARN ]  2022-09-18 20:21:55.924  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-10 [WARN ]  2022-09-18 20:21:55.925  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：1>>最大次数maxVisitCount  10
+http-nio-8677-exec-10 [WARN ]  2022-09-18 20:21:55.926  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差2 周期60000 第一次时间1663503715923 本地时间1663503715925
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:21:55.929  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:21:55.930  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：2>>最大次数maxVisitCount  10
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:21:55.930  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差7 周期60000 第一次时间1663503715923 本地时间1663503715930
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:21:55.936  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:21:55.937  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：3>>最大次数maxVisitCount  10
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:21:55.937  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差14 周期60000 第一次时间1663503715923 本地时间1663503715937
+http-nio-8677-exec-10 [WARN ]  2022-09-18 20:21:56.935  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@5db2af79  javax.servlet.http.Cookie@cef65af  
+http-nio-8677-exec-6 [WARN ]  2022-09-18 20:21:56.935  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@2dfce987  javax.servlet.http.Cookie@354f5647  
+http-nio-8677-exec-10 [INFO ]  2022-09-18 20:21:56.935  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202156   20220918211925  -9769
+http-nio-8677-exec-6 [INFO ]  2022-09-18 20:21:56.935  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202156   20220918211925  -9769
+http-nio-8677-exec-10 [WARN ]  2022-09-18 20:21:56.936  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-6 [WARN ]  2022-09-18 20:21:56.936  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-10 [INFO ]  2022-09-18 20:21:56.936  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-6 [INFO ]  2022-09-18 20:21:56.936  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:21:56.962  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@c7616fc  javax.servlet.http.Cookie@4b5be0d  
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:21:56.963  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202156   20220918211925  -9769
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:21:56.963  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:21:56.963  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:21:59.939  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@3f8acf63  javax.servlet.http.Cookie@734685ad  
+http-nio-8677-exec-8 [INFO ]  2022-09-18 20:21:59.939  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202159   20220918211925  -9766
+http-nio-8677-exec-8 [WARN ]  2022-09-18 20:21:59.939  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-8 [INFO ]  2022-09-18 20:21:59.940  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:22:08.802  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@58e547fc  javax.servlet.http.Cookie@48360be6  
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:22:08.803  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202208   20220918211925  -9717
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:22:10.710  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:22:10.711  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：4>>最大次数maxVisitCount  10
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:22:10.711  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差14788 周期60000 第一次时间1663503715923 本地时间1663503730711
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:22:11.729  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@7c4a8b2  javax.servlet.http.Cookie@4558407e  
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:22:11.729  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202211   20220918211925  -9714
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:22:11.730  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:22:11.730  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+Thread-37 [INFO ]  2022-09-18 20:24:23.727  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - doClose 991 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@de37cb3: startup date [Sun Sep 18 20:18:53 CST 2022]; root of context hierarchy
+Thread-37 [INFO ]  2022-09-18 20:24:23.728  o.s.j.e.a.AnnotationMBeanExporter - destroy 451 - Unregistering JMX-exposed beans on shutdown
+Thread-37 [INFO ]  2022-09-18 20:24:23.729  o.s.j.e.a.AnnotationMBeanExporter - unregisterBeans 185 - Unregistering JMX-exposed beans
+Thread-37 [INFO ]  2022-09-18 20:24:23.731  c.a.d.p.DruidDataSource - close 1383 - {dataSource-3} closed
+restartedMain [INFO ]  2022-09-18 20:24:24.600  c.e.TestApplication - logStarting 50 - Starting TestApplication on you with PID 13632 (started by Administrator in D:\xuexi\xm\springboot项目\updatetest\test)
+restartedMain [INFO ]  2022-09-18 20:24:24.601  c.e.TestApplication - logStartupProfileInfo 654 - No active profile set, falling back to default profiles: default
+restartedMain [INFO ]  2022-09-18 20:24:24.604  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - prepareRefresh 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2baa3688: startup date [Sun Sep 18 20:24:24 CST 2022]; root of context hierarchy
+restartedMain [WARN ]  2022-09-18 20:24:25.046  o.m.s.m.ClassPathMapperScanner - doScan 166 - No MyBatis mapper was found in '[com.example.test.dao]' package. Please check your configuration.
+restartedMain [WARN ]  2022-09-18 20:24:25.074  o.m.s.m.ClassPathMapperScanner - doScan 166 - No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+restartedMain [INFO ]  2022-09-18 20:24:25.263  o.s.b.w.e.t.TomcatWebServer - initialize 91 - Tomcat initialized with port(s): 8677 (http)
+restartedMain [INFO ]  2022-09-18 20:24:25.264  o.a.c.h.Http11NioProtocol - log 180 - Initializing ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:24:25.264  o.a.c.c.StandardService - log 180 - Starting service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:24:25.264  o.a.c.c.StandardEngine - log 180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.266  o.a.c.c.AprLifecycleListener - log 180 - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.267  o.a.c.c.AprLifecycleListener - log 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.267  o.a.c.c.AprLifecycleListener - log 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.267  o.a.c.c.AprLifecycleListener - log 180 - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.314  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring embedded WebApplicationContext
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.314  o.s.w.c.ContextLoader - prepareWebApplicationContext 285 - Root WebApplicationContext: initialization completed in 710 ms
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.334  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet dispatcherServlet mapped to [/]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.334  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet statViewServlet mapped to [/druid/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.335  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.335  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.335  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.335  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'requestContextFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:25.335  o.s.b.w.s.FilterRegistrationBean - configure 258 - Mapping filter: 'webStatFilter' to urls: [/*]
+restartedMain [INFO ]  2022-09-18 20:24:25.355  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:24:25.384  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - initControllerAdviceCache 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2baa3688: startup date [Sun Sep 18 20:24:24 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:24:25.388  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:24:25.389  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+restartedMain [INFO ]  2022-09-18 20:24:25.393  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:24:25.394  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [WARN ]  2022-09-18 20:24:25.418  o.t.t.TemplateMode - parse 150 - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+restartedMain [WARN ]  2022-09-18 20:24:25.467  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 556 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+restartedMain [INFO ]  2022-09-18 20:24:25.468  o.a.c.c.StandardService - log 180 - Stopping service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:24:25.490  o.s.b.a.l.ConditionEvaluationReportLoggingListener - logMessage 142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+restartedMain [ERROR]  2022-09-18 20:24:25.492  o.s.b.SpringApplication - reportFailure 837 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:548)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.example.TestApplication.main(TestApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583)
+	... 23 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913$$FastClassBySpringCGLIB$$fec34bb5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 24 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 37 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 39 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 45 common frames omitted
+restartedMain [INFO ]  2022-09-18 20:24:41.279  c.e.TestApplication - logStarting 50 - Starting TestApplication on you with PID 13632 (started by Administrator in D:\xuexi\xm\springboot项目\updatetest\test)
+restartedMain [INFO ]  2022-09-18 20:24:41.280  c.e.TestApplication - logStartupProfileInfo 654 - No active profile set, falling back to default profiles: default
+restartedMain [INFO ]  2022-09-18 20:24:41.282  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - prepareRefresh 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15403ea0: startup date [Sun Sep 18 20:24:41 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:24:41.788  o.s.b.w.e.t.TomcatWebServer - initialize 91 - Tomcat initialized with port(s): 8677 (http)
+restartedMain [INFO ]  2022-09-18 20:24:41.789  o.a.c.h.Http11NioProtocol - log 180 - Initializing ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:24:41.790  o.a.c.c.StandardService - log 180 - Starting service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:24:41.790  o.a.c.c.StandardEngine - log 180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.801  o.a.c.c.AprLifecycleListener - log 180 - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.803  o.a.c.c.AprLifecycleListener - log 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.803  o.a.c.c.AprLifecycleListener - log 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.803  o.a.c.c.AprLifecycleListener - log 180 - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.842  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring embedded WebApplicationContext
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.842  o.s.w.c.ContextLoader - prepareWebApplicationContext 285 - Root WebApplicationContext: initialization completed in 560 ms
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.881  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet dispatcherServlet mapped to [/]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.881  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet statViewServlet mapped to [/druid/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.882  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.882  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.882  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.882  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'requestContextFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:24:41.882  o.s.b.w.s.FilterRegistrationBean - configure 258 - Mapping filter: 'webStatFilter' to urls: [/*]
+restartedMain [WARN ]  2022-09-18 20:24:42.180  o.t.t.TemplateMode - parse 150 - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+restartedMain [INFO ]  2022-09-18 20:24:42.281  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:24:42.355  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - initControllerAdviceCache 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15403ea0: startup date [Sun Sep 18 20:24:41 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:24:42.363  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/login/error || /error/500]}" onto public org.springframework.web.servlet.ModelAndView com.example.test.controller.Error.errorHandler.loginError(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+restartedMain [INFO ]  2022-09-18 20:24:42.364  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/ || /home],methods=[GET]}" onto public java.lang.String com.example.test.controller.IndexController.index()
+restartedMain [INFO ]  2022-09-18 20:24:42.372  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/ || /main/home || /main],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.index(org.springframework.web.servlet.ModelAndView,com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:24:42.372  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/ || /main/home || /main],methods=[POST]}" onto public java.lang.String com.example.test.controller.MainController.index_post(org.springframework.web.servlet.ModelAndView,com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:24:42.372  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/queryPerson],methods=[POST]}" onto public java.lang.String com.example.test.controller.MainController.queryPerson(java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.web.servlet.mvc.support.RedirectAttributes) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:24:42.372  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/upload],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.upload()
+restartedMain [INFO ]  2022-09-18 20:24:42.373  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/sendEmail],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.sendEmail(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws javax.mail.MessagingException
+restartedMain [INFO ]  2022-09-18 20:24:42.373  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/Msg],methods=[GET]}" onto public com.example.test.pojo.MsgVehicle com.example.test.controller.MainController.RetuMsg(com.example.test.pojo.MsgVehicle,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+restartedMain [INFO ]  2022-09-18 20:24:42.373  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/asyn/update]}" onto public org.springframework.web.servlet.ModelAndView com.example.test.controller.RoleController.queryAll()
+restartedMain [INFO ]  2022-09-18 20:24:42.374  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login/login_role],methods=[GET]}" onto private java.lang.String com.example.test.controller.RoleLoginController.get_role()
+restartedMain [INFO ]  2022-09-18 20:24:42.374  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login/login_role],methods=[POST]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_pwd(org.springframework.web.servlet.mvc.support.RedirectAttributes,com.example.test.pojo.MsgVehicle,org.springframework.validation.BindingResult)
+restartedMain [INFO ]  2022-09-18 20:24:42.374  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/acc],methods=[POST]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_post(java.lang.String)
+restartedMain [INFO ]  2022-09-18 20:24:42.374  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/acc/{id}],methods=[GET]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_id(java.lang.Object)
+restartedMain [INFO ]  2022-09-18 20:24:42.374  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/dire],methods=[GET]}" onto private java.lang.String com.example.test.controller.RoleLoginController.redi_main(com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:24:42.374  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login || /role/]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_load(com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:24:42.375  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:24:42.375  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+restartedMain [INFO ]  2022-09-18 20:24:42.395  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:24:42.395  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:24:42.410  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - initExceptionHandlerAdviceCache 288 - Detected @ExceptionHandler methods in sellerExceptionHandler
+restartedMain [INFO ]  2022-09-18 20:24:42.503  o.s.w.s.v.f.FreeMarkerConfigurer - postProcessTemplateLoaders 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+restartedMain [INFO ]  2022-09-18 20:24:42.814  o.s.b.d.a.OptionalLiveReloadServer - startServer 57 - LiveReload server is running on port 35729
+restartedMain [INFO ]  2022-09-18 20:24:42.826  o.s.j.e.a.AnnotationMBeanExporter - afterSingletonsInstantiated 433 - Registering beans for JMX exposure on startup
+restartedMain [INFO ]  2022-09-18 20:24:42.835  o.s.j.e.a.AnnotationMBeanExporter - autodetect 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+restartedMain [INFO ]  2022-09-18 20:24:42.837  o.s.j.e.a.AnnotationMBeanExporter - registerBeanInstance 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+restartedMain [INFO ]  2022-09-18 20:24:42.840  o.a.c.h.Http11NioProtocol - log 180 - Starting ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:24:42.841  o.a.t.u.n.NioSelectorPool - log 180 - Using a shared selector for servlet write/read
+restartedMain [INFO ]  2022-09-18 20:24:42.844  o.s.b.w.e.t.TomcatWebServer - start 206 - Tomcat started on port(s): 8677 (http) with context path ''
+restartedMain [INFO ]  2022-09-18 20:24:42.845  c.e.TestApplication - logStarted 59 - Started TestApplication in 1.596 seconds (JVM running for 1466.342)
+restartedMain [INFO ]  2022-09-18 20:24:42.847  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - onApplicationEvent 56 - Condition evaluation unchanged
+restartedMain [WARN ]  2022-09-18 20:24:42.847  c.e.TestApplication - main 17 - <<<<<<<<<<启动成功>>>>>>>>>>
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:24:50.067  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:24:50.067  o.s.w.s.DispatcherServlet - initServletBean 494 - FrameworkServlet 'dispatcherServlet': initialization started
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:24:50.084  o.s.w.s.DispatcherServlet - initServletBean 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:24:50.100  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@67a58e18  javax.servlet.http.Cookie@85fe2d1  
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:24:50.103  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202450   20220918211925  -9475
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:24:52.486  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:24:52.487  c.e.t.p.C.CacheOperation - addCacheData 52 - 缓存大小0
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:24:52.488  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@56449481  javax.servlet.http.Cookie@70cc84d2  
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:24:52.488  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202452   20220918211925  -9473
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:24:52.490  c.e.t.c.MainController - getEntry 194 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-2 [WARN ]  2022-09-18 20:24:52.491  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:24:52.491  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-2 [INFO ]  2022-09-18 20:24:52.494  c.a.d.p.DruidDataSource - init 667 - {dataSource-4} inited
+http-nio-8677-exec-2 [DEBUG]  2022-09-18 20:24:52.500  c.e.t.d.S.querySalary - debug 159 - ==>  Preparing: select * from salary where salaId = ? 
+http-nio-8677-exec-2 [DEBUG]  2022-09-18 20:24:52.501  c.e.t.d.S.querySalary - debug 159 - ==> Parameters: 123123(String)
+http-nio-8677-exec-2 [DEBUG]  2022-09-18 20:24:52.503  c.e.t.d.S.querySalary - debug 159 - <==      Total: 1
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:25:08.298  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:25:08.300  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：1>>最大次数maxVisitCount  10
+http-nio-8677-exec-7 [WARN ]  2022-09-18 20:25:08.301  c.e.t.c.A.I.RequestLimitInterceptor - requestLimit 45 - http://localhost:8677/main/queryPerson  0:0:0:0:0:0:0:1
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:25:08.301  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差15813 周期60000 第一次时间1663503892487 本地时间1663503908300
+http-nio-8677-exec-7 [WARN ]  2022-09-18 20:25:08.302  c.e.t.p.C.CacheOperation - getCacheData 83 - 次数：1>>最大次数maxVisitCount  10
+http-nio-8677-exec-7 [WARN ]  2022-09-18 20:25:08.302  c.e.t.p.C.CacheOperation - getCacheData 87 - 时间差15815 周期60000 第一次时间1663503892487 本地时间1663503908302
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:25:09.310  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@33050262  javax.servlet.http.Cookie@30b46ffd  
+http-nio-8677-exec-7 [WARN ]  2022-09-18 20:25:09.310  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@1ebcc297  javax.servlet.http.Cookie@107b2f30  
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:25:09.311  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202509   20220918211925  -9416
+http-nio-8677-exec-7 [INFO ]  2022-09-18 20:25:09.311  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918202509   20220918211925  -9416
+http-nio-8677-exec-1 [WARN ]  2022-09-18 20:25:09.311  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-7 [WARN ]  2022-09-18 20:25:09.311  c.e.t.c.MainController - queryPerson 94 - Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+	Role{roleName='上传文件', role_Pwd='123123', roleSex='null', roleAuth='2', rolePhone='123123', roleCard='null', roleId='null', roleJob='null', roleLeader='null', roleEmail='3426564320@qq.com'}
+http-nio-8677-exec-1 [INFO ]  2022-09-18 20:25:09.311  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+http-nio-8677-exec-7 [INFO ]  2022-09-18 20:25:09.311  c.e.t.c.MainController - queryPerson 104 - cookie_phone:123123>>>role_phone:123123  
+Thread-46 [INFO ]  2022-09-18 20:30:01.934  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - doClose 991 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15403ea0: startup date [Sun Sep 18 20:24:41 CST 2022]; root of context hierarchy
+Thread-46 [INFO ]  2022-09-18 20:30:01.936  o.s.j.e.a.AnnotationMBeanExporter - destroy 451 - Unregistering JMX-exposed beans on shutdown
+Thread-46 [INFO ]  2022-09-18 20:30:01.937  o.s.j.e.a.AnnotationMBeanExporter - unregisterBeans 185 - Unregistering JMX-exposed beans
+Thread-46 [INFO ]  2022-09-18 20:30:01.939  c.a.d.p.DruidDataSource - close 1383 - {dataSource-4} closed
+restartedMain [INFO ]  2022-09-18 20:30:02.713  c.e.TestApplication - logStarting 50 - Starting TestApplication on you with PID 13632 (started by Administrator in D:\xuexi\xm\springboot项目\updatetest\test)
+restartedMain [INFO ]  2022-09-18 20:30:02.715  c.e.TestApplication - logStartupProfileInfo 654 - No active profile set, falling back to default profiles: default
+restartedMain [INFO ]  2022-09-18 20:30:02.719  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - prepareRefresh 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@37ba7546: startup date [Sun Sep 18 20:30:02 CST 2022]; root of context hierarchy
+restartedMain [WARN ]  2022-09-18 20:30:03.371  o.m.s.m.ClassPathMapperScanner - doScan 166 - No MyBatis mapper was found in '[com.example.test.dao]' package. Please check your configuration.
+restartedMain [WARN ]  2022-09-18 20:30:03.397  o.m.s.m.ClassPathMapperScanner - doScan 166 - No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+restartedMain [INFO ]  2022-09-18 20:30:03.603  o.s.b.w.e.t.TomcatWebServer - initialize 91 - Tomcat initialized with port(s): 8677 (http)
+restartedMain [INFO ]  2022-09-18 20:30:03.604  o.a.c.h.Http11NioProtocol - log 180 - Initializing ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:30:03.604  o.a.c.c.StandardService - log 180 - Starting service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:30:03.604  o.a.c.c.StandardEngine - log 180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.611  o.a.c.c.AprLifecycleListener - log 180 - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.612  o.a.c.c.AprLifecycleListener - log 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.612  o.a.c.c.AprLifecycleListener - log 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.612  o.a.c.c.AprLifecycleListener - log 180 - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.645  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring embedded WebApplicationContext
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.645  o.s.w.c.ContextLoader - prepareWebApplicationContext 285 - Root WebApplicationContext: initialization completed in 927 ms
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.656  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet dispatcherServlet mapped to [/]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.656  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet statViewServlet mapped to [/druid/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.656  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.656  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.656  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.657  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'requestContextFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:03.657  o.s.b.w.s.FilterRegistrationBean - configure 258 - Mapping filter: 'webStatFilter' to urls: [/*]
+restartedMain [INFO ]  2022-09-18 20:30:03.673  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:30:03.696  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - initControllerAdviceCache 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@37ba7546: startup date [Sun Sep 18 20:30:02 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:30:03.701  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:30:03.701  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+restartedMain [INFO ]  2022-09-18 20:30:03.705  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:30:03.705  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [WARN ]  2022-09-18 20:30:03.717  o.t.t.TemplateMode - parse 150 - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+restartedMain [WARN ]  2022-09-18 20:30:03.743  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 556 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+restartedMain [INFO ]  2022-09-18 20:30:03.744  o.a.c.c.StandardService - log 180 - Stopping service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:30:03.754  o.s.b.a.l.ConditionEvaluationReportLoggingListener - logMessage 142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+restartedMain [ERROR]  2022-09-18 20:30:03.755  o.s.b.SpringApplication - reportFailure 837 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:548)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.example.TestApplication.main(TestApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583)
+	... 23 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\xuexi\xm\springboot项目\updatetest\test\target\classes\mapper\productMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913$$FastClassBySpringCGLIB$$fec34bb5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c73913.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 24 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 37 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 39 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.test.pojo.product'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.test.pojo.product
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 45 common frames omitted
+restartedMain [INFO ]  2022-09-18 20:30:21.563  c.e.TestApplication - logStarting 50 - Starting TestApplication on you with PID 13632 (started by Administrator in D:\xuexi\xm\springboot项目\updatetest\test)
+restartedMain [INFO ]  2022-09-18 20:30:21.564  c.e.TestApplication - logStartupProfileInfo 654 - No active profile set, falling back to default profiles: default
+restartedMain [INFO ]  2022-09-18 20:30:21.572  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - prepareRefresh 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@144e9562: startup date [Sun Sep 18 20:30:21 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:30:22.112  o.s.b.w.e.t.TomcatWebServer - initialize 91 - Tomcat initialized with port(s): 8677 (http)
+restartedMain [INFO ]  2022-09-18 20:30:22.113  o.a.c.h.Http11NioProtocol - log 180 - Initializing ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:30:22.113  o.a.c.c.StandardService - log 180 - Starting service [Tomcat]
+restartedMain [INFO ]  2022-09-18 20:30:22.114  o.a.c.c.StandardEngine - log 180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.121  o.a.c.c.AprLifecycleListener - log 180 - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.122  o.a.c.c.AprLifecycleListener - log 180 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.122  o.a.c.c.AprLifecycleListener - log 180 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.122  o.a.c.c.AprLifecycleListener - log 180 - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.156  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring embedded WebApplicationContext
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.156  o.s.w.c.ContextLoader - prepareWebApplicationContext 285 - Root WebApplicationContext: initialization completed in 584 ms
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.179  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet dispatcherServlet mapped to [/]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.180  o.s.b.w.s.ServletRegistrationBean - addRegistration 187 - Servlet statViewServlet mapped to [/druid/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.180  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.180  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.180  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.180  o.s.b.w.s.FilterRegistrationBean - configure 245 - Mapping filter: 'requestContextFilter' to: [/*]
+localhost-startStop-1 [INFO ]  2022-09-18 20:30:22.180  o.s.b.w.s.FilterRegistrationBean - configure 258 - Mapping filter: 'webStatFilter' to urls: [/*]
+restartedMain [WARN ]  2022-09-18 20:30:22.370  o.t.t.TemplateMode - parse 150 - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+restartedMain [INFO ]  2022-09-18 20:30:22.464  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:30:22.544  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - initControllerAdviceCache 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@144e9562: startup date [Sun Sep 18 20:30:21 CST 2022]; root of context hierarchy
+restartedMain [INFO ]  2022-09-18 20:30:22.553  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/login/error || /error/500]}" onto public org.springframework.web.servlet.ModelAndView com.example.test.controller.Error.errorHandler.loginError(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+restartedMain [INFO ]  2022-09-18 20:30:22.554  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/ || /home],methods=[GET]}" onto public java.lang.String com.example.test.controller.IndexController.index()
+restartedMain [INFO ]  2022-09-18 20:30:22.554  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/ || /main/home || /main],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.index(org.springframework.web.servlet.ModelAndView,com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:30:22.555  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/ || /main/home || /main],methods=[POST]}" onto public java.lang.String com.example.test.controller.MainController.index_post(org.springframework.web.servlet.ModelAndView,com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:30:22.555  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/queryPerson],methods=[POST]}" onto public java.lang.String com.example.test.controller.MainController.queryPerson(java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.web.servlet.mvc.support.RedirectAttributes) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:30:22.555  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/upload],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.upload()
+restartedMain [INFO ]  2022-09-18 20:30:22.555  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/sendEmail],methods=[GET]}" onto public java.lang.String com.example.test.controller.MainController.sendEmail(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws javax.mail.MessagingException
+restartedMain [INFO ]  2022-09-18 20:30:22.555  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/main/Msg],methods=[GET]}" onto public com.example.test.pojo.MsgVehicle com.example.test.controller.MainController.RetuMsg(com.example.test.pojo.MsgVehicle,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+restartedMain [INFO ]  2022-09-18 20:30:22.555  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/asyn/update]}" onto public org.springframework.web.servlet.ModelAndView com.example.test.controller.RoleController.queryAll()
+restartedMain [INFO ]  2022-09-18 20:30:22.556  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login/login_role],methods=[GET]}" onto private java.lang.String com.example.test.controller.RoleLoginController.get_role()
+restartedMain [INFO ]  2022-09-18 20:30:22.556  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login/login_role],methods=[POST]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_pwd(org.springframework.web.servlet.mvc.support.RedirectAttributes,com.example.test.pojo.MsgVehicle,org.springframework.validation.BindingResult)
+restartedMain [INFO ]  2022-09-18 20:30:22.557  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/acc],methods=[POST]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_post(java.lang.String)
+restartedMain [INFO ]  2022-09-18 20:30:22.557  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/acc/{id}],methods=[GET]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_id(java.lang.Object)
+restartedMain [INFO ]  2022-09-18 20:30:22.557  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/dire],methods=[GET]}" onto private java.lang.String com.example.test.controller.RoleLoginController.redi_main(com.example.test.pojo.Role,com.example.test.pojo.MsgVehicle,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:30:22.557  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/role/login || /role/]}" onto public java.lang.String com.example.test.controller.RoleLoginController.login_load(com.example.test.pojo.MsgVehicle,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+restartedMain [INFO ]  2022-09-18 20:30:22.558  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+restartedMain [INFO ]  2022-09-18 20:30:22.558  o.s.w.s.m.m.a.RequestMappingHandlerMapping - register 549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+restartedMain [INFO ]  2022-09-18 20:30:22.571  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:30:22.572  o.s.w.s.h.SimpleUrlHandlerMapping - registerHandler 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+restartedMain [INFO ]  2022-09-18 20:30:22.579  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - initExceptionHandlerAdviceCache 288 - Detected @ExceptionHandler methods in sellerExceptionHandler
+restartedMain [INFO ]  2022-09-18 20:30:22.633  o.s.w.s.v.f.FreeMarkerConfigurer - postProcessTemplateLoaders 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+restartedMain [INFO ]  2022-09-18 20:30:22.960  o.s.b.d.a.OptionalLiveReloadServer - startServer 57 - LiveReload server is running on port 35729
+restartedMain [INFO ]  2022-09-18 20:30:22.974  o.s.j.e.a.AnnotationMBeanExporter - afterSingletonsInstantiated 433 - Registering beans for JMX exposure on startup
+restartedMain [INFO ]  2022-09-18 20:30:22.974  o.s.j.e.a.AnnotationMBeanExporter - autodetect 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+restartedMain [INFO ]  2022-09-18 20:30:22.977  o.s.j.e.a.AnnotationMBeanExporter - registerBeanInstance 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+restartedMain [INFO ]  2022-09-18 20:30:22.982  o.a.c.h.Http11NioProtocol - log 180 - Starting ProtocolHandler ["http-nio-8677"]
+restartedMain [INFO ]  2022-09-18 20:30:22.984  o.a.t.u.n.NioSelectorPool - log 180 - Using a shared selector for servlet write/read
+restartedMain [INFO ]  2022-09-18 20:30:22.988  o.s.b.w.e.t.TomcatWebServer - start 206 - Tomcat started on port(s): 8677 (http) with context path ''
+restartedMain [INFO ]  2022-09-18 20:30:22.989  c.e.TestApplication - logStarted 59 - Started TestApplication in 1.472 seconds (JVM running for 1806.485)
+restartedMain [INFO ]  2022-09-18 20:30:22.991  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - onApplicationEvent 56 - Condition evaluation unchanged
+restartedMain [WARN ]  2022-09-18 20:30:22.991  c.e.TestApplication - main 17 - <<<<<<<<<<启动成功>>>>>>>>>>
+http-nio-8677-exec-1 [INFO ]  2022-09-18 21:09:00.841  o.a.c.c.C.[.[.[/] - log 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+http-nio-8677-exec-1 [INFO ]  2022-09-18 21:09:00.842  o.s.w.s.DispatcherServlet - initServletBean 494 - FrameworkServlet 'dispatcherServlet': initialization started
+http-nio-8677-exec-1 [INFO ]  2022-09-18 21:09:00.866  o.s.w.s.DispatcherServlet - initServletBean 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+http-nio-8677-exec-1 [WARN ]  2022-09-18 21:09:00.893  c.e.t.c.a.SellerAuthorizeAspect - doVerify 61 - 【登录校验】javax.servlet.http.Cookie@3ee6cd55  javax.servlet.http.Cookie@73baf520  
+http-nio-8677-exec-1 [INFO ]  2022-09-18 21:09:00.905  c.e.C.C.CookieUtil - ExpiCookie 175 - 本地 20220918210900   20220918211925  -1025

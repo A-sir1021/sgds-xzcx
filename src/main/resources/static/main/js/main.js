@@ -4,14 +4,23 @@ window.onload=function (){
     }
     aja1();
 }
+
+var v_id ;
+$(function (){
+    $("#from_resend").click(function (e) {
+        v_id = e.target.id;
+        console.log(v_id)
+    })
+})
 function resend(e){
+    var i =1;
     $('#mess_Fail').remove();
     aja();
 
     $("#from_resend").click(function (e) {
         var v_id = e.target.id;
         //window.location.href="/main/"+v_id;
-
+        console.log(e+"  "+i)
         $.ajax({
             url:"/main/"+v_id,
             async:true,
@@ -27,8 +36,12 @@ function resend(e){
 }
 
 function querySarly(e){
+    console.log(v_id)
+
+
     $('.mess_Fail').remove();
-    console.log(2)
+    var s=0
+    console.log(s+1+"s  "+i+"  i")
     aja();
     $("#from_resend").click(function (e) {
         var phone = CookieUtil.getValue('phone');
@@ -58,31 +71,43 @@ function querySarly(e){
 }
 
 function aja(){
-    console.log(1)
     $("#from_resend").click(function (e) {
         var v_id = e.target.id;
         ss()
+        console.log(v_id)
         $(document).ajaxSend(function() {
+
             $("#wait").css("display", "block");
-            $("#" + v_id).prop("disabled", true)
-            butt(e);
-            // $("#" + v_id).attr()
+            $("#" + v_id+"").prop("disabled", true)
+            butt(v_id,'gray');
+            //也可以添加属性
             //$("#" + v_id).attr("disabled", true);
             // $("#" + v_id).removeAttr("disabled")
         })
         $(document).ajaxComplete(function(){
             $("#wait").css("display","none");
-            $("#"+v_id).prop("disabled",true)
-
+            setTimeout(function (){
+                $("#" + v_id).prop("disabled", false)
+                butt(v_id,'color')
+            },3)
         })
     })
 }
+//为了效果掩饰，程序睡眠
 const ss = async () =>{await sleep(100000)}
-
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 
+
+function butt(v_id,color){
+    $("#"+v_id).css("color",color)
+}
+
+
+
+
+
 function aja1(){
-        // ss()
+    // ss()
     $(function (){
         $("#wait").css("display", "block");
         ss()
@@ -90,11 +115,6 @@ function aja1(){
 
     })
 }
-
-function butt(v_id){
-    $("#upload").css("color","gray")
-}
-
 $(function (){
       /*  $(document).ready(function(){
         //��ť����ʱִ��

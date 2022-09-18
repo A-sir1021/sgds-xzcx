@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/example/Commen/CookieUtil/CookieUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/example/test/controller/Error/SellerExceptionHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/main/js/main.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/upload/js/filedrag.js" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
