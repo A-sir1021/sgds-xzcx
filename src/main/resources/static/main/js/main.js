@@ -1,164 +1,170 @@
-window.onload=function (){
-    if(window.top!==window.self){
-        window.top.location=window.location
+window.onload = function () {
+    if (window.top !== window.self) {
+        window.top.location = window.location
     }
     aja1();
-}
+    v_id = 'undefined';
 
-var v_id ;
-$(function (){
+}
+var v_id = 'undefined';
+
+$(document).ready(function () {
+    console.log(v_id)
     $("#from_resend").click(function (e) {
         v_id = e.target.id;
         console.log(v_id)
+        aja();
+
     })
 })
-function resend(e){
-    var i =1;
+
+function resend(e) {
     $('#mess_Fail').remove();
-    aja();
-
-    $("#from_resend").click(function (e) {
-        var v_id = e.target.id;
-        //window.location.href="/main/"+v_id;
-        console.log(e+"  "+i)
-        $.ajax({
-            url:"/main/"+v_id,
-            async:true,
-            success:function (data) {
-                $('#salarly_refresh').html(data)
-            },
-            error:function (date) {
-              console.log(date)
-            }
-        })
-
-    })
+    if (v_id == 'undefined') {
+        return
+    }
 }
 
-function querySarly(e){
-    console.log(v_id)
 
-
-    $('.mess_Fail').remove();
-    var s=0
-    console.log(s+1+"s  "+i+"  i")
-    aja();
-    $("#from_resend").click(function (e) {
-        var phone = CookieUtil.getValue('phone');
-        var date_query = {
-            "salary": phone
+function resend_ajax(v_id) {
+    $.ajax({
+        url: "/main/" + v_id,
+        success: function (data) {
+            v_id = 'undefined';
+            $('#salarly_refresh').html(data)
+        },
+        error: function (date) {
+            console.log(date)
         }
+    })
+}
 
-        $.ajax({
-            data: date_query,
-            type: "POST",
-            async:true,
-            url: "/main/queryPerson",
-            timeout: 3000,
-            success: function (data) {
-                if (data == '500211') {
-                    $('#massage').after('<blockquote style="color: #A60000" class="mess_Fail">用户验证不正确，查询失败</blockquote>')
-                    return;
-                }
-                // console.log(data)
-                $('#salarly_refresh').html(data)
-            },
-            error: function (e) {
-                console.log(e)
+
+function querySalaAjav(v_sala) {
+    var phone = CookieUtil.getValue('phone');
+    var date_query = {
+        "salary": phone
+    }
+    console.log(v_sala)
+    $.ajax({
+        data: date_query,
+        type: "POST",
+        //没什么鸟用
+        async: true,
+        url: "/main/queryPerson",
+        timeout: 3000,
+        success: function (data) {
+            v_id = 'undefined';
+            if (data == '500211') {
+                $('#massage').after('<blockquote style="color: #A60000" class="mess_Fail">用户验证不正确，查询失败</blockquote>')
+                return;
             }
-        })
+            $('#salarly_refresh').html(data)
+        },
+        error: function (e) {
+            console.log(e)
+        }
     })
 }
 
-function aja(){
-    $("#from_resend").click(function (e) {
-        var v_id = e.target.id;
-        ss()
-        console.log(v_id)
-        $(document).ajaxSend(function() {
+function aja() {
 
-            $("#wait").css("display", "block");
-            $("#" + v_id+"").prop("disabled", true)
-            butt(v_id,'gray');
-            //也可以添加属性
-            //$("#" + v_id).attr("disabled", true);
-            // $("#" + v_id).removeAttr("disabled")
-        })
-        $(document).ajaxComplete(function(){
-            $("#wait").css("display","none");
-            setTimeout(function (){
-                $("#" + v_id).prop("disabled", false)
-                butt(v_id,'color')
-            },3)
-        })
+    sleep_view()
+    console.log(v_id)
+    //点击后，置灰不可点，完成后恢复
+    $("#wait").css("display", "block");
+    butt(v_id, 'gray');
+    $("#" + v_id).attr("disabled", true);
+
+    //请求完城后，视觉效果
+    $(document).ajaxComplete(function () {
+        setTimeout(function () {
+            butt(v_id, 'white')
+            $("#" + v_id).removeAttr("disabled")
+        }, 15000)
+
+        //视觉效果
+        setTimeout(function () {
+            $("#wait").css("display", "none");
+        }, 500)
+
     })
 }
+
 //为了效果掩饰，程序睡眠
-const ss = async () =>{await sleep(100000)}
-const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
+const sleep_view = async () => {
+    console.log(new Date().getTime()+" "+v_id)
+    await sleep(1000)
 
+    //等待加载完dom后，触发提交
+    if (v_id == 'sendEmail') {
+        resend_ajax(v_id)
+    } else if (v_id = 'queryPerson') {
+        querySalaAjav(v_id)
+    }
+}
+const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay)).then(console.log(v_id))
 
-function butt(v_id,color){
-    $("#"+v_id).css("color",color)
+//按钮置灰
+function butt(v_id, color) {
+    $("#" + v_id).css("color", color)
 }
 
 
-
-
-
-function aja1(){
-    // ss()
-    $(function (){
+//视觉效果，刚加载时触发
+function aja1() {
+    $(function () {
         $("#wait").css("display", "block");
-        ss()
-        $("#wait").css("display","none");
-
+        setTimeout(function () {
+            $("#wait").css("display", "none");
+        }, 200)
     })
 }
-$(function (){
-      /*  $(document).ready(function(){
-        //��ť����ʱִ��
-            return ;
-            $("#form_resend").click(function(e){
-                e.preventDefault()
-                var v_id = e.target.id;
-                console.log(v_id+">>v_id");
-                //e.preventDefault(true);
-                window.document.action="/main/"+v_id;
-            });
-       });*/
-        $(document).ready(function(){
-            $("#sendEmail").click(function(){
-              //  window.document.f.action="/main/sendEmail";
-            });
-        });
-        $(document).ready(function(){
-            $("#upload").click(function(){
-              //  window.document.f.action="/main/upload";
-            });
 
-         });
-        $(document).ready(function(){
+$(function () {
+    /*  $(document).ready(function(){
+      //��ť����ʱִ��
+          return ;
+          $("#form_resend").click(function(e){
+              e.preventDefault()
+              var v_id = e.target.id;
+              console.log(v_id+">>v_id");
+              //e.preventDefault(true);
+              window.document.action="/main/"+v_id;
+          });
+     });*/
+    $(document).ready(function () {
+        $("#sendEmail").click(function () {
+            //  window.document.f.action="/main/sendEmail";
+        });
+    });
+    $(document).ready(function () {
+        $("#upload").click(function () {
+            //  window.document.f.action="/main/upload";
+        });
+
+    });
+    $(document).ready(function () {
         //��ť����ʱִ��
-        $("#update").click(function(){
+        $("#update").click(function () {
             alert("���4");
-            window.document.f.action="/auth/updatemiddle";
+            window.document.f.action = "/auth/updatemiddle";
         });
 
     });
-        $(document).ready(function(){
+    $(document).ready(function () {
         //��ť����ʱִ��
-        $("#art").click(function(){
+        $("#art").click(function () {
             alert("���5");
-            window.document.f.action="/auth/Article";
+            window.document.f.action = "/auth/Article";
         });
 
     });
-        $(document).ready(function(){
+    $(document).ready(function () {
         //��ť����ʱִ��
-        $("#per").click(function(){
+        $("#per").click(function () {
             alert("���6");
-            window.document.f.action="/auth/Permission";
+            window.document.f.action = "/auth/Permission";
         });
 
     });
