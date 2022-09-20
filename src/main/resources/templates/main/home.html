@@ -37,14 +37,11 @@
 			<div class="layui-form-item">
     			<div class="layui-button" th:id="from_resend">
       				<input type="submit" class="layui-btn" lay-submit="查询个人薪资"  id="queryPerson" name="resend" th:value="个人查询"
-							lay-filter="demo1" onclick="querySarly()"></input>
+							lay-filter="demo1" onclick="resend()"></input>
       				<input type="submit" class="layui-btn" lay-submit="发送薪资单到邮箱" id="sendEmail" name="resend" th:value="发送详情到邮箱"
 							lay-filter="demo2" onclick="resend()"></input>
 					<input type="submit" class="layui-btn btn-block" lay-submit="上传文件" id="upload" name="resend" th:value="上传文件"
 							lay-filter="demo3" onclick="resend1()"></input>
-					<div id="wait" style="display:none;width:69px;height:89px;border:1px solid black;position:absolute;top:50%;left:50%;padding:1px;">
-						<img src='https://www.runoob.com/try/demo_source/demo_wait.gif' width="64" height="64" /><br>Loading..</div>
-
 <!--					<button class="btn btn-success btn-block" data-loading="正在验证。。。">登录</button>-->
 					<!--
       				<button class="layui-btn" lay-submit="del" id="del" name="del" lay-filter="demo3">删除</button>
@@ -53,7 +50,10 @@
       				<button class="layui-btn" lay-submit="art" id="art" name="art" lay-filter="dem5">跳转art</button>
       				<button class="layui-btn" lay-submit="per" id="per" name="per" lay-filter="dem6">跳转art</button>-->
    				</div>
-  			</div>
+				<div id="wait" style="display:none;width:69px;height:89px;border:0.2px solid gainsboro;position:absolute;top:50%;left:50%;padding:1px;">
+					<img th:src="@{/images/wait/wait.gif}" width="64" height="64" /><br>Loading..</div>
+
+			</div>
 		<i class="fa fa-refresh fa-spin fa-3x fa-fw" aria-hidden="true"></i>
 
 		<div th:fragment="salarly_refresh" id="salarly_refresh">

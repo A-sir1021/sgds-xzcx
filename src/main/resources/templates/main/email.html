@@ -13,7 +13,47 @@
 </head>
 <body>
 <h1>工资条</h1>
+<table th:if="${salary} != null" class="imagetable table_define">
+
+    <thead>
+    <tr style="background-clip: border-box">
+        <td>姓名</td>
+        <td>账户</td>
+        <td>邮箱</td>
+    </tr>
+    </thead>
+    <tbody th:with="appName = ${role.roleName}">
+    <tr>
+        <td class="main-td_center" th:text="${appName}"></td>
+        <td class="main-td_center" th:text="${role.rolePhone}"></td>
+        <td class="main-td_center" th:text="${role.roleEmail}"></td>
+    </tr>
+    </tbody>
+
+    <thead>
+    <tr>
+        <td>实际所得</td>
+        <td>基础工资</td>
+        <td>备注事项</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td th:text="${salary.salaTakepay}"></td>
+        <td th:text="${salary.salaBasemoney}"></td>
+        <td>
+            <textarea th:text="${salary.salaBz}" class="area" rows="4" cols="12" readonly></textarea>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+
 <table style="border: black 1px solid;width: 750px">
+
+
+
+
     <thead>
     <td>月份</td>
     <td>手机号</td>
