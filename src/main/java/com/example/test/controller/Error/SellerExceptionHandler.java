@@ -1,15 +1,18 @@
 package com.example.test.controller.Error;
 
 
+import com.example.Commen.MsgUtil.CodeMsg;
 import com.example.Commen.MsgUtil.ResponseHelper;
 import com.example.test.pojo.MsgVehicle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.CollectionUtils;
+import org.springframework.util.StringUtils;
 import org.springframework.validation.BindException;
 import org.springframework.validation.FieldError;
 import org.springframework.validation.ObjectError;
+import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -35,7 +38,12 @@ public class SellerExceptionHandler {
     @ExceptionHandler(value = {SellerAuthorizeException.class})
     public String handlerSellerAuthorizeException(RedirectAttributes ra,SellerAuthorizeException e){
         ModelAndView andView = new ModelAndView();
-        //msgVehicle.setFail(CodeMsg.AUTH_Fail.getMsg());
+        String msg1= "会话过期+";
+        String msg2 ="okie中查不到token";
+        String error = e.toString();
+        if((error.indexOf(msg1) !=-1 )|| (error.indexOf(msg2) !=-1)){
+            msgVehicle.setFail(CodeMsg.AUTH_Fail.getMsg());
+        }
         ra.addFlashAttribute(msgVehicle);
         logger.warn(">"+e);
         //com.example.test.controller.Error.SellerAuthorizeException: 会话过期+
@@ -112,5 +120,11 @@ public class SellerExceptionHandler {
         return ResponseHelper.failed(e.toString());
     }
 
+    @ExceptionHandler(value = HttpRequestMethodNotSupportedException.class)
+    public String httpMethod(HttpRequestMethodNotSupportedException e){
+        logger.error(String.valueOf(e));
+        return "redirect:/main/";
+
+    }
 
 }
