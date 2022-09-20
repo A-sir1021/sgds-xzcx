@@ -1,4 +1,4 @@
-package com.example.test.pojo.CacheData;
+package com.example.test.controller.CacheData;
 
 
 import java.lang.reflect.Method;
@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.Hashtable;
 import java.util.concurrent.TimeUnit;
 
+import com.example.test.pojo.CacheData.CacheData;
+import com.example.test.pojo.CacheData.MethodInfo;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -87,7 +89,8 @@ public class CacheOperation {
             log.warn("时间差"+time_dis+" 周期"+intervalTime+" 第一次时间"+cacheData.getTime()+" "+"本地时间"+Localmillis);
             //超过时间，更新缓存
             if(time_dis > intervalTime){
-                removeCacheData(key);
+                //直接更新数据
+                //removeCacheData(key);
                 //从新计时
                 cacheData = new CacheData();
                 addCacheData(key,cacheData);
@@ -97,14 +100,14 @@ public class CacheOperation {
                 if(maxVisitCount - cacheData.getCount()>0){
                 } else {
                     log.warn(cacheData.getCount());
-                    //次数过多
-                    removeCacheData(key);
+                    //次数过多，更新
+                    addCacheData(key,new CacheData());
+                    //removeCacheData(key);
                     return null;
                 }
                 cacheData.addCount();
             }
         }
-        TimeUnit.SECONDS.sleep((long) (Math.random() * 10)<2? (long) (Math.random() * 10) :1);
         return cacheData.getCount();
     }
 
