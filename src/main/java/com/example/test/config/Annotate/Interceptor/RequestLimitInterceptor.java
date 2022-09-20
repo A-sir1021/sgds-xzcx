@@ -4,7 +4,7 @@ import com.example.Commen.Util.MachineIp;
 import com.example.test.config.Annotate.RequestLimit;
 import com.example.test.controller.Error.RequestLimitException;
 import com.example.test.pojo.CacheData.CacheData;
-import com.example.test.pojo.CacheData.CacheOperation;
+import com.example.test.controller.CacheData.CacheOperation;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -12,7 +12,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import javax.servlet.http.HttpServletRequest;
-import java.util.concurrent.TimeUnit;
 //import net.sf.ehcache.CacheManager; //导入方法依赖的package包/类
 
 @Aspect
