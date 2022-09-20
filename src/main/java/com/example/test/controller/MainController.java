@@ -72,6 +72,8 @@ public class MainController {
         model = new ModelAndView();
         model.addObject("fail",msgVehicle.getFail());
         model.addObject("role",msgVehicle);
+        role1 = null;
+        salary1 = null;
         return "main/home";
     }
 
@@ -147,7 +149,9 @@ public class MainController {
         }
 
         StringWriter emailContent = new StringWriter();
-        context.setVariable("salary",salary.getSalaBz());
+        context.setVariable("salary",salary);
+        context.setVariable("role",role);
+
         try{
             templateEngine.process("/main/email", context,emailContent);
             logger.warn(emailContent.toString());
