@@ -1,3 +1,5 @@
+var storage = window.localStorage
+
 /**
  *
  * @param name
@@ -36,18 +38,67 @@ var CookieUtil= {
             var key_value = string.split("=");
             var key = key_value[0].trim();
             var value = key_value[1].trim();
-
+            //此处更换为storang
             if (key == str) {
-                return value;
+                return storage.getItem(key);
             }
         }
     },
 
-    getValueJson : function (str){
+    getCookieValue : function (str){
         var cookie = document.cookie;
-        var jsonValue = eval("(" + cookie + ")");
-        return jsonValue;
+        //var jsonValue = eval("(" + cookie + ")");
+        return cookie;
     },
+
+    getAllCookie :function () {
+        var cookie = document.cookie;
+        console.warn(cookie);
+        var list = cookie.split(";");
+
+        for (var string of list) {
+            var key_value = string.split("=");
+            var key = key_value[0].trim();
+            var value = key_value[1].trim();
+            //此处更换为storang
+        }
+    },
+
+    //cookie放入strong对象
+    setStoring: function () {
+        first = first + 1;
+        if (first > 1) {
+            return;
+        }
+        var list = cookie.split(";");
+
+        for (var string of list) {
+            var key_value = string.split("=");
+            var key = key_value[0].trim();
+            var value = key_value[1].trim();
+            storage.setItem(key, value);
+        }
+    },
+
+    refreshCookie : function (){
+        var cookie = document.cookie;
+        var list = cookie.split(";");
+
+
+        var strsec = getsec(time);
+        var exp = new Date();
+        exp.setTime(exp.getTime() + strsec*1);
+
+
+        for (var string of list) {
+            var key_value = string.split("=");
+            var key = key_value[0].trim();
+            var value = key_value[1].trim();
+        }
+        document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+    }
+
+
 
 }
 var SessionUtil = {
