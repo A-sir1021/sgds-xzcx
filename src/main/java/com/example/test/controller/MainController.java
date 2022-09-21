@@ -101,7 +101,7 @@ public class MainController {
             CookieUtil.delCookieArgs(request,response);
             model.addAttribute("msgVehicle",msgVehicle);
             //主页面
-            return "redirect:/role";
+            return "redirect:/role/";
         }
         logger.info("cookie_phone:"+phone1+">>>role_phone:"+role.getRolePhone()+"  ");
         if(salary1 != null){
