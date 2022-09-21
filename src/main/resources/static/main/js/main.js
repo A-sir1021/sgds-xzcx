@@ -3,16 +3,31 @@ window.onload = function () {
         window.top.location = window.location
     }
     aja1();
+    delStoring();
     v_id = 'undefined';
-
+    CookieUtil.setStoring();
 }
+
 var v_id = 'undefined';
+var storage = window.localStorage
+var cookie = document.cookie;
+var first = 0;
+
+
+function delStoring (){
+    storage.clear();
+}
+
 
 $(document).ready(function () {
     console.log(v_id)
     $("#from_resend").click(function (e) {
         v_id = e.target.id;
         console.log(v_id)
+        if(cookie ==''){
+            window.referURL('/role/login/')
+        }
+
         aja();
 
     })
@@ -42,6 +57,10 @@ function resend_ajax(v_id) {
 
 function querySalaAjav(v_sala) {
     var phone = CookieUtil.getValue('phone');
+    var phone1 = storage.getItem('phone');
+    if(phone != phone1){
+        return ;
+    }
     var date_query = {
         "salary": phone
     }
